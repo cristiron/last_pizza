@@ -1,0 +1,171 @@
+[2018-01-13 10:45:53] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 10:46:38] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 10:47:01] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 10:47:28] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 10:50:39] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 11:17:43] local.DEBUG: log::debug(Request::all()) of the function postOrder in NewOrderController:  
+[2018-01-13 11:17:43] local.DEBUG: array (
+  '_token' => 'BRp7a76FU26ASB1PWlYFbJ17h7kWSZBCtC6DRYvx',
+  'marinara' => '1',
+  'margherita' => '3',
+  'olio' => 'olio_picc',
+  'name' => 'Stefano',
+  'email' => 'example@webyourmind.com',
+  'freeOrder' => 'margherita',
+)  
+[2018-01-13 11:17:43] local.DEBUG: Validation passed  
+[2018-01-13 11:17:43] local.DEBUG: Event::fire(new ExampleEvent($msg)) in NewOrderController which runs the listener ExampleEventHandler handler function of ExampleEvent  
+[2018-01-13 11:17:43] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 11:17:43] local.DEBUG: Provider EventServiceProvider::boot with  Event::listen of amuu\Events\OrderCreated,  fired by Event::fire(new OrderCreated($msg) in NewOrderController   
+[2018-01-13 11:17:43] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 11:36:49] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 11:37:05] local.DEBUG: log::debug(Request::all()) of the function postOrder in NewOrderController:  
+[2018-01-13 11:37:05] local.DEBUG: array (
+  '_token' => 'FCfMkw3QUFu2Sc4gr5E68uBxBhmRhe59ygrlWsgJ',
+  'marinara' => '1',
+  'margherita' => '1',
+  'name' => 'Stefano',
+  'email' => 'example@webyourmind.com',
+  'freeOrder' => 'margherita',
+)  
+[2018-01-13 11:37:05] local.DEBUG: Validation passed  
+[2018-01-13 11:37:05] local.DEBUG: Event::fire(new ExampleEvent($msg)) in NewOrderController which runs the listener ExampleEventHandler handler function of ExampleEvent  
+[2018-01-13 11:37:05] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 11:37:05] local.DEBUG: Provider EventServiceProvider::boot with  Event::listen of amuu\Events\OrderCreated,  fired by Event::fire(new OrderCreated($msg) in NewOrderController   
+[2018-01-13 11:37:05] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:17:33] local.DEBUG: log::debug(Request::all()) of the function postOrder in NewOrderController:  
+[2018-01-13 12:17:33] local.DEBUG: array (
+  '_token' => 'FCfMkw3QUFu2Sc4gr5E68uBxBhmRhe59ygrlWsgJ',
+  'marinara' => '0',
+  'margherita' => '0',
+  'name' => 'Stefano',
+  'email' => 'example@webyourmind.com',
+  'freeOrder' => 'margherita',
+)  
+[2018-01-13 12:17:33] local.DEBUG: Validation passed  
+[2018-01-13 12:17:33] local.DEBUG: Event::fire(new ExampleEvent($msg)) in NewOrderController which runs the listener ExampleEventHandler handler function of ExampleEvent  
+[2018-01-13 12:17:33] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:17:33] local.DEBUG: Provider EventServiceProvider::boot with  Event::listen of amuu\Events\OrderCreated,  fired by Event::fire(new OrderCreated($msg) in NewOrderController   
+[2018-01-13 12:17:33] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:25:56] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 12:26:46] local.DEBUG: log::debug(Request::all()) of the function postOrder in NewOrderController:  
+[2018-01-13 12:26:46] local.DEBUG: array (
+  '_token' => 'rQF63ZLckQRn7golduj6okApyh5PNOTqhFnEZCRV',
+  'marinara' => '0',
+  'margherita' => '0',
+  'name' => 'Stefano',
+  'email' => 'example@webyourmind.com',
+  'freeOrder' => 'margherita',
+)  
+[2018-01-13 12:26:46] local.DEBUG: Validation passed  
+[2018-01-13 12:26:46] local.DEBUG: Event::fire(new ExampleEvent($msg)) in NewOrderController which runs the listener ExampleEventHandler handler function of ExampleEvent  
+[2018-01-13 12:26:46] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:26:46] local.DEBUG: Provider EventServiceProvider::boot with  Event::listen of amuu\Events\OrderCreated,  fired by Event::fire(new OrderCreated($msg) in NewOrderController   
+[2018-01-13 12:26:46] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:27:57] local.DEBUG: select * from `users` where `id` = ? limit 1  
+[2018-01-13 12:27:57] local.DEBUG: array (
+  0 => 1,
+)  
+[2018-01-13 12:27:57] local.DEBUG: 10.29  
+[2018-01-13 12:27:57] local.DEBUG: log::debug(Request::all()) of the function postOrder in NewOrderController:  
+[2018-01-13 12:27:57] local.DEBUG: array (
+  '_token' => 'rQF63ZLckQRn7golduj6okApyh5PNOTqhFnEZCRV',
+  'marinara' => '0',
+  'margherita' => '0',
+  'name' => 'Stefano',
+  'email' => 'example@webyourmind.com',
+  'freeOrder' => 'margherita',
+)  
+[2018-01-13 12:27:57] local.DEBUG: select count(*) as aggregate from `menu` where `dish` = ?  
+[2018-01-13 12:27:57] local.DEBUG: array (
+  0 => 'margherita',
+)  
+[2018-01-13 12:27:57] local.DEBUG: 1.46  
+[2018-01-13 12:27:57] local.DEBUG: Validation passed  
+[2018-01-13 12:27:57] local.DEBUG: Event::fire(new ExampleEvent($msg)) in NewOrderController which runs the listener ExampleEventHandler handler function of ExampleEvent  
+[2018-01-13 12:27:57] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:27:57] local.DEBUG: Provider EventServiceProvider::boot with  Event::listen of amuu\Events\OrderCreated,  fired by Event::fire(new OrderCreated($msg) in NewOrderController   
+[2018-01-13 12:27:57] local.DEBUG: array (
+  'message' => 'message $msg of NewOrderController passed to $message in Event and called by log::debug($event->getMessage()):',
+  'email' => 'example@webyourmind.com',
+  'name' => 'Stefano',
+)  
+[2018-01-13 12:29:39] local.DEBUG: select * from `users` where `id` = ? limit 1  
+[2018-01-13 12:29:39] local.DEBUG: array (
+  0 => 1,
+)  
+[2018-01-13 12:29:39] local.DEBUG: 9.14  
+[2018-01-13 12:29:39] local.DEBUG: update `users` set `remember_token` = ? where `id` = ?  
+[2018-01-13 12:29:39] local.DEBUG: array (
+  0 => 'amgskZuWsduqAXKanVuhzmPhWGBglS9RQFdiJFHeruL1qcmQiAqyIK85ADsR',
+  1 => 1,
+)  
+[2018-01-13 12:29:39] local.DEBUG: 12.75  
+[2018-01-13 12:29:52] local.DEBUG: select * from `users` where `email` = ? limit 1  
+[2018-01-13 12:29:52] local.DEBUG: array (
+  0 => 'aaaa@aaaa.com',
+)  
+[2018-01-13 12:29:52] local.DEBUG: 9.82  
+[2018-01-13 12:29:52] local.DEBUG: aaaa just logged in to the application.  
+[2018-01-13 12:29:52] local.DEBUG: select * from `users` where `id` = ? limit 1  
+[2018-01-13 12:29:52] local.DEBUG: array (
+  0 => 1,
+)  
+[2018-01-13 12:29:52] local.DEBUG: 9.79  
+[2018-01-13 12:30:25] local.DEBUG: select * from `users` where `id` = ? limit 1  
+[2018-01-13 12:30:25] local.DEBUG: array (
+  0 => 1,
+)  
+[2018-01-13 12:30:25] local.DEBUG: 8.3  
+[2018-01-13 12:30:25] local.DEBUG: select * from `menu`  
+[2018-01-13 12:30:25] local.DEBUG: array (
+)  
+[2018-01-13 12:30:25] local.DEBUG: 0.95  
+[2018-01-13 18:45:56] local.ERROR: Maximum execution time of 30 seconds exceeded {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 30 seconds exceeded at C:\\last\\vendor\\laravel\\framework\\src\\Illuminate\\Validation\\PresenceVerifierInterface.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2018-01-13 18:45:56] local.ERROR: Maximum execution time of 30 seconds exceeded {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 30 seconds exceeded at C:\\last\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Access\\HandlesAuthorization.php:5)
+[stacktrace]
+#0 {main}
+"} 
+[2018-01-13 18:45:57] local.ERROR: Maximum execution time of 30 seconds exceeded {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 30 seconds exceeded at C:\\last\\vendor\\maximebf\\debugbar\\src\\DebugBar\\DebugBar.php:29)
+[stacktrace]
+#0 {main}
+"} 
